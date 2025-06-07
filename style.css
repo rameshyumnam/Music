@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    background: #090031;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0c0c0c;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid gray;
+    z-index: 1000;
+}
+nav h1 {
+    color: #79e4ff;
+    background: none;
+    font-size: 28px;
+}
+nav div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    max-width: 450px;
+    width: 100%;
+}
+nav div input {
+    border: 1px solid #969696;
+    border-radius: 20px;
+    background: transparent;
+    padding: 8px 10px;
+    font-size: 14px;
+    color: #cad8d8;
+    max-width: 400px;
+    width: 100%;
+}
+nav div button {
+    padding: 8px;
+    background: #4116dd;
+    border: none;
+    border-radius: 20px;
+    color: #afbbff;
+}
+.music-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding: 20px;
+    flex: 1;
+}
+.music-container img {
+    max-width: 28rem;
+}
+.audio-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.audio-list h2 {
+    color: grey;
+}
+#music-list {
+    height: 520px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px;
+    scrollbar-width: thin;
+    scrollbar-color: #4f00aab9 transparent;
+}
+#music-list::-webkit-scrollbar {
+    width: 1px;
+}
+#music-list::-webkit-scrollbar-track {
+  background: transparent;
+}
+.song-container {
+    display: flex;
+    background-color: #4f00aa;
+    align-items: center;
+    gap: 5px;
+    border-radius: 2px;
+    padding: 4px 5px;
+    box-shadow: 1px 2px 6px #000000;
+}
+.song-container img {
+    width: 74px;
+    height: 74px;
+    border-radius: 2px;
+    object-fit: cover;
+    box-shadow: 0px 1px 1px black;
+}
+.song-container div {
+    display: flex;
+    gap: 2px;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.song-container div p {
+    padding: 0px 10px;
+    font-size: 14px;
+    color: #acc4a1;
+    opacity: 80%;
+    font-weight: 400;
+}
+.song-container div .title {
+    color: #b6ff94;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0px 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 400px;
+}
+.audio {
+    height: 40px;
+    width: 400px;
+    border-radius: 30px;
+    box-shadow: 0px 1px 1px black;
+}
+audio::-webkit-media-controls-panel {
+    background: #60608a;  
+    padding: 5px;
+}
+audio::-webkit-media-controls-play-button {
+    background-color: #56fa5e;
+    border-radius: 50%;
+    box-shadow: 1px 2px 2px black;
+    outline: none;
+    border: none;
+}
+audio::-webkit-media-controls-current-time-display {
+    color: #3dff3d;
+    text-shadow: none;
+    padding: 0;
+    text-shadow: 1px 2px 2px black;
+}
+audio::-webkit-media-controls-time-remaining-display {
+    color: #3dff3d;
+    padding: 5px;
+    text-shadow: 1px 2px 2px black;
+}
+audio::-webkit-media-controls-timeline {
+    background-color: #8795b9;
+    border-radius: 10px;
+    padding: 8px;
+    box-shadow: 0px 1px 1px black;
+}
+audio::-webkit-media-controls-volume-slider {
+    background-color: #8969ff;
+    border-radius: 10px;
+    padding: 8px;
+    box-shadow: 1px 2px 2px black;
+}
+audio::-webkit-media-controls-mute-button {
+    background-color: #9476ff;
+    border-radius: 50%;
+    box-shadow: 1px 2px 2px black;
+}
+@media (max-width: 480px) {
+    .music-container img {
+        display: none;
+    }
+    .audio {
+    height: 40px;
+    width: 300px;
+    }
+    .song-container {
+        width: 310px;
+    }
+    .song-container div .title {
+        width: 300px;
+    }
+}
