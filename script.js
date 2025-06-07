@@ -101,7 +101,6 @@ musicArrays.forEach(music => {
     musicList.appendChild(song);
 });
 
-// Now setup play and autoplay-next logic
 setTimeout(() => {
     const allAudio = document.querySelectorAll("audio");
 
