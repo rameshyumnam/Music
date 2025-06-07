@@ -23,15 +23,6 @@ nav h1 {
     background: none;
     font-size: 28px;
 }
-nav .logo {
-    display: flex;
-    gap: 0px;
-}
-.logo img {
-    width: 30px;
-    padding: 0;
-    height: 40px;
-}
 nav div {
     display: flex;
     align-items: center;
