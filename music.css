@@ -1,0 +1,325 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    background: #0a021a;
+}
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    max-width: 500px;
+    width: 100%;
+    padding: 8px 0;
+}
+.search .logo {
+    height: 44px;
+    width: 44px;
+    border: 1px solid grey;
+    background-color: #534279;
+    border-radius: 2px;
+    filter: brightness(80%);
+}
+.search button {
+    position: absolute;
+    right: 11px;
+    top: 8px;
+    border-radius: 2px;
+    padding: 12px;
+    background: none;
+    color: #bcffbc;
+    text-shadow: 0px 1px 1px black;
+    border: 1px solid grey;
+    background-color: #534279;
+    font-size: 16px;
+}
+.search input {
+    padding: 12px;
+    border-radius: 2px;
+    max-width: 442px;
+    width: 100%;
+    outline: none;
+    border: 1px solid grey;
+    background-color: transparent;
+    color: grey;
+    font-size: 16px;
+}
+.music-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+.quote {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 15px;
+    color: #868d86;
+    align-items: center;
+    text-align: center;
+    max-width: 550px;
+    text-shadow: 1px 2px 2px black;
+}
+.quote img {
+    max-width: 22rem;
+    height: 22rem;
+    filter: brightness(85%);
+}
+.quote h3 {
+    color: #bcffbc;
+    font-weight: 500;
+}
+.audio-list {
+    display: flex;
+    flex-direction: column;
+    gap: px;
+    align-items: center;
+}
+.audio-list h2 {
+    color: #7f5fca;
+}
+#music-list {
+    height: 526px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 2px;
+    padding-top: 0;
+    scrollbar-width: thin;
+    scrollbar-color: #5f536bb9 transparent;
+    box-shadow: 6px 6px 20px #000000 inset;
+}
+#music-list::-webkit-scrollbar-track {
+  background: transparent;
+}
+.song-container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 4px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+#thumbnail {
+    width: 74px;
+    height: 74px;
+    border-radius: 2px;
+    object-fit: cover;
+    box-shadow: 0px 1px 1px black;
+    filter: none;
+}
+.song-container div {
+    display: flex;
+    gap: 2px;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.song-container div p {
+    padding: 0px 10px;
+    font-size: 14px;
+    color: #8aa9c4;
+    opacity: 80%;
+    font-weight: 400;
+}
+.song-container div .title {
+    color: #8aa9c4;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0px 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 400px;
+}
+.audio {
+    height: 40px;
+    width: 400px;
+    border-radius: 30px;
+    box-shadow: 0px 1px 1px black;
+}
+audio::-webkit-media-controls-panel {
+    background: #534279;  
+    padding: 5px;
+    border: 2px solid rgb(255, 234, 234);
+}
+audio::-webkit-media-controls-play-button {
+    background-color: #898dad;
+    border-radius: 50%;
+    box-shadow: 1px 2px 2px black;
+    outline: none;
+    border: none;
+}
+audio::-webkit-media-controls-current-time-display {
+    color: #bcffbc;
+    text-shadow: none;
+    padding: 0;
+    text-shadow: 1px 2px 2px black;
+}
+audio::-webkit-media-controls-time-remaining-display {
+    color: #bcffbc;
+    padding: 5px;
+    text-shadow: 1px 2px 2px black;
+}
+audio::-webkit-media-controls-timeline {
+    padding: 6px;
+}
+audio::-webkit-media-controls-volume-slider {
+    background-color: #a88fff;
+    border-radius: 10px;
+    padding: 4px;
+    box-shadow: 1px 2px 2px black;
+}
+@media (max-width: 980px) {
+    .search {
+        width: 430px;
+    }
+    .quote img {
+        width: 20rem;
+        height: 20rem;
+    }
+    .search button {
+        right: 0;
+    }
+    .audio {
+        width: 350px;
+    }
+    .song-container div .title {
+        width: 350px;
+    }
+}
+@media (max-width: 880px) {
+    .music-container {
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    #music-list {
+        height: auto;
+        width: auto;
+    }
+    .search {
+        max-width: 539px;
+        width: 100%;
+        position: sticky;
+        top: 0;
+        background-color: #0a021a;
+        z-index: 1000;
+    }
+    .search button {
+        right: 0;
+    }
+    .quote {
+        text-align: center;
+    }
+    .audio {
+        width: 450px;
+    }
+    audio::-webkit-media-controls-panel {
+        padding: 2px;
+    }
+}
+@media (max-width: 580px) {
+    .audio {
+        width: 360px;
+    }
+}
+@media (max-width: 480px) {
+    .quote p {
+        font-size: 14px;
+    }
+    .quote h3 {
+        font-size: 16px;
+    }
+    .music-container {
+        padding: 2px;
+    }
+    .quote img {
+        width: 16rem;
+        height: 16rem;
+    }
+    .audio {
+    height: 40px;
+    width: 300px;
+    }
+    .song-container div .title {
+        width: 300px;
+        font-size: 14px;
+    }
+    .song-container div p {
+        font-size: 13px;
+    }
+}
+@media (max-width: 420px) {
+    .quote {
+        width: 300px;
+    }
+    .quote img {
+        width: 14rem;
+        height: 14rem;
+    }
+    .music-container {
+        padding: 0px;
+    }
+}
+@media (max-width: 410px) {
+    .quote {
+        width: 300px;
+    }
+    .quote img {
+        width: 14rem;
+        height: 14rem;
+    }
+    .audio {
+        width: 270px;
+    }
+    .song-container div .title {
+        width: 270px;
+    }
+}
+@media (max-width: 380px) {
+    .quote img {
+        width: 10rem;
+        height: 10rem;
+    }
+    .audio {
+        width: 250px;
+    }
+    .song-container div .title {
+        width: 250px;
+    }
+}
+@media (max-width: 360px) {
+    .audio {
+        width: 230px;
+    }
+    .song-container div .title {
+        width: 230px;
+        font-size: 12px;
+    }
+    .song-container div p {
+        font-size: 11px;
+    }
+}
+@media (max-width: 340px) {
+    .audio {
+        width: 200px;
+    }
+    .song-container div .title {
+        width: 200px;
+    }
+}
+@media (max-width: 310px) {
+    .audio {
+        width: 190px;
+    }
+    .song-container div .title {
+        width: 190px;
+    }
+}

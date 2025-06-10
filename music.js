@@ -111,7 +111,9 @@ setTimeout(() => {
                 if (other !== audio) {
                     other.pause();
                     other.currentTime = 0;
-                }
+                } else {
+                    audio.style.background= "grey";
+                } 
             });
         };
 
