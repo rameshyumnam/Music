@@ -111,8 +111,9 @@ setTimeout(() => {
                 if (other !== audio) {
                     other.pause();
                     other.currentTime = 0;
+                    other.style.border = "none"
                 } else {
-                    audio.style.background= "grey";
+                    audio.style.border = "2px solid #30ff30";
                 } 
             });
         };

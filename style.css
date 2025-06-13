@@ -126,8 +126,11 @@ section button:active {
     }
 }
 @media (max-width: 480px) {
+    section {
+        height: auto;
+    }
     .image {
-        max-width: 100px;
+        max-width: px;
     }
     .welcome p {
         font-size: 15px;

@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Music-Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Fredoka:wdth,wght@75,300..700&family=Fuzzy+Bubbles:wght@400;700&family=Lobster&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Satisfy&family=Special+Gothic+Condensed+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="music.css">
 </head>
 <body>
@@ -11,23 +17,35 @@
     <section class="music-container">
         <div class="quote">
             <img src="b1608ae8a0cd1699ad49a64f9f77d8eb.png" alt="guitar">
-            <p>
-                Music is the language of the soul. It uplifts moods, heal hearts and connects people across the world.
-                From soft melodies to powerful beats, music brings peace, energy and joy. It's not just sound-it's 
-                emotion in motion.
-            </p>
-            <h3>"Where words fail, music speaks." - <span style="color: #7350c4;">Hans Christian Andersen</span></h3>
+            <div class="text">
+                <p>
+                    Music is the language of the soul. It uplifts moods, heal hearts and connects people across the world.
+                    From soft melodies to powerful beats, music brings peace, energy and joy. It's not just sound-it's 
+                    emotion in motion.
+                </p>
+                <h3>"Where words fail, music speaks." - <span style="color: #7350c4;">Hans Christian Andersen</span></h3>
+            </div>
         </div>
         <div class="audio-list">
-            <h2>Music List</h2>
-            <div class="search">
-                <img class="logo" src="81ff9427657de79a38e14adf6e2e020f.png" alt="logo">
-                <input type="text" placeholder="Search For Songs...">
-                <button>Search</button>
+            <h1>Explore the Music Collection</h1>
+            <div class="nav">
+                <div class="logo">
+                    <img src="leaf.png" alt="logo">
+                    <h2>Play<span style="color: #b596ff; ">Music</span></h2>
+                </div>
+                <div class="search">
+                    <input type="text" placeholder="Search For Songs...">
+                    <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+                <i id="icon" class="fa-solid fa-magnifying-glass"></i>
             </div>
             <div id="music-list"></div>
         </div>
     </section>
+    <hr>
+    <footer>
+        &copy;Yumnam Ramesh - All Right Reserved
+    </footer>
 
     <script src="music.js"></script>
 </body>
