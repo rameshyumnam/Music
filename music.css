@@ -227,11 +227,11 @@ audio::-webkit-media-controls-current-time-display {
 audio::-webkit-media-controls-time-remaining-display {
     color: #bcffbc;
     font-size: 12px;
-    padding: 0px;
+    padding: 5px;
     text-shadow: 1px 2px 2px black;
 }
 audio::-webkit-media-controls-timeline {
-    padding: 6px;
+    padding: 0px;
 }
 audio::-webkit-media-controls-volume-slider {
     background-color: #a88fff;
@@ -497,22 +497,19 @@ footer {
     .audio {
         width: 230px;
     }
-    audio::-webkit-media-controls-volume-slider {
-        display: none;
-    }
-    audio::-webkit-media-controls-mute-button {
-        display: none;
-    }
-    audio::-webkit-media-controls-timeline {
-        padding: 3px;
-        transform: scaleX(2.5);
-        transform-origin: left center;
-    }
     .song-container div .title {
         width: 230px;
         font-size: 12px;
     }
     .song-container div p {
+        font-size: 11px;
+    }
+    audio::-webkit-media-controls-current-time-display {
+        font-size: 11px;
+    }
+    audio::-webkit-media-controls-time-remaining-display {
+        padding-left: 0px;
+        padding-right: 2px;
         font-size: 11px;
     }
 }
