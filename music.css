@@ -93,6 +93,14 @@ body {
     text-align: center;
     text-shadow: 1px 2px 2px black;
 }
+@keyframes left {
+    from {
+        opacity: 0;
+        transform: translateX(100%);
+    } to {
+        transform: translateX(0px);
+    }
+}
 .text {
     max-width: 680px;
 }
@@ -102,11 +110,13 @@ body {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: italic;
+    animation: left 2s ease-in-out;
 }
 .quote img {
     width: 20rem;
     height: 20rem;
     filter: brightness(85%);
+    animation: left 1s ease-in-out;
 }
 .quote .text h3 {
     color: #bcffbc;
@@ -116,6 +126,7 @@ body {
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
+    animation: left 3s ease-in-out;
 }
 .text h3 span {
     font-family: "Merienda", cursive;
@@ -429,9 +440,25 @@ footer {
         text-overflow: ellipsis;
         max-width: 340px;
     }
+    @keyframes top {
+        from {
+            opacity: 0;
+            transform: translateY(-100%);
+        } to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    .text p {
+        animation: top 1.5s ease-in-out;
+    }
+    .quote .text h3 {
+        animation: top 1s ease-in-out;
+    }
     .quote img {
         width: 16rem;
         height: 16rem;
+        animation: top 2s ease-in-out;
     }
     .audio {
         height: 40px;

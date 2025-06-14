@@ -18,6 +18,22 @@ section .image {
     display: flex;
     justify-content: center;
     width: 400px;
+    animation: top 1s ease-in-out;
+}
+@keyframes top {
+    from {
+        transform: translateY(-100%);
+    } to {
+        transform: translateY(0px);
+    }
+}
+@keyframes bottom {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    } to {
+        opacity: 1;
+    }
 }
 section div img {
     min-width: 300px;
@@ -43,6 +59,7 @@ section div img {
     font-weight: 500;
     font-style: normal;
     line-height: 30px;
+    animation: bottom 1.5s ease-in-out;
 }
 .welcome p {
     color: #81d3b8;
@@ -51,6 +68,7 @@ section div img {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: italic;
+    animation: bottom 2.5s ease-in-out;
 }
 .welcome .quote {
     line-height: 22px;
@@ -61,6 +79,7 @@ section div img {
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
+    animation: bottom 3.5s ease-in-out;
 }
 section button {
     padding: 10px;
@@ -72,6 +91,7 @@ section button {
     background: linear-gradient(60deg, #b3ebd9, #00ffffdc);
     position: relative;
     overflow: hidden;
+    animation: bottom 4.5s ease-in-out;
 }
 section button span {
     z-index: 1;
