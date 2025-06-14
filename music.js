@@ -152,13 +152,13 @@ const musicArrays = [
     {
         title: "I Like You So Much, You'll Know It - Ysabelle Cuevas",
         singer: "Ysabelle Cuevas",
-        cover: "",
+        cover: "i like u so much.jpg",
         src: "I Like You So Much, You'll Know It - Ysabelle Cuevas (Lyrics) [fZkoV5dIKmM].mp3"
     },
     {
         title: "Jodi Benson - Part of Your World",
         singer: "Jodi Benson",
-        cover: "i like u so much.jpg",
+        cover: "part of your world.jpg",
         src: "Jodi Benson - Part of Your World - Lyrics (The Little Mermaid) [XE0sKZmtyqA].mp3"
     },
     {
