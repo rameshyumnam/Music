@@ -263,6 +263,192 @@ const musicArrays = [
         cover: "raise up.jpg",
         src: "Westlife - You Raise Me Up (Official Video) [9bxc9hbwkkw].mp3"
     },
+    {
+        title: "Alan Walker, K-391, Tungevaag, Mangoo - PLAY",
+        singer: "Alan Walker",
+        cover: "play.jpg",
+        src: "Alan Walker, K-391, Tungevaag, Mangoo - PLAY (Lyrics).mp3"
+    },
+    {
+        title: "ALLSTAR 2024 Night of Rhythm Cinematic Music Video  MLBB SPARKLE  Mobile Legends_ Bang Bang",
+        singer: "Night of Rhythm",
+        cover: "night of rhythm.jpg",
+        src: "ALLSTAR 2024 Night of Rhythm Cinematic Music Video  MLBB SPARKLE  Mobile Legends_ Bang Bang [4K].mp3"
+    },
+    {
+        title: "Billie Eilish - lovely",
+        singer: "Billie Eilish",
+        cover: "lovely.jpeg",
+        src: "Billie Eilish - lovely (Lyrics) ft. Khalid.mp3"
+    },
+    {
+        title: "Calum Scott - You Are The Reason",
+        singer: "Calum Scott",
+        cover: "you are the reason.jpg",
+        src: "Calum Scott - You Are The Reason (Official Video).mp3"
+    },
+    {
+        title: "Celine Dion - My Heart Will Go On",
+        singer: "Celine Dion",
+        cover: "my heart will go on.jpg",
+        src: "Celine Dion - My Heart Will Go On (Lyrics).mp3"
+    },
+    {
+        title: "Céline Dion - To Love You More",
+        singer: "Celine Dion",
+        cover: "to love you more.jpg",
+        src: "Céline Dion - To Love You More (Official Audio).mp3"
+    },
+    {
+        title: "Ckay-Love Nwantiti - Dj Yo! Ft AX'EL",
+        singer: "Ckay",
+        cover: "love nawantiti.jpg",
+        src: "Ckay-Love Nwantiti - Dj Yo! Ft AX'EL (Joeboy, Kuami Eugene).mp3"
+    },
+    {
+        title: "Don Omar - Danza Kuduro",
+        singer: "Danza Kuduro",
+        cover: "don omar.jpg",
+        src: "Don Omar - Danza Kuduro [REMIX]  CAR VIDEO.mp3"
+    },
+    {
+        title: "Hymns Medley  Amazing Grace  Be Thou My Vision  Come Thou Fount  Anthem Lights",
+        singer: "Anthem Lights",
+        cover: "amazing grace.jpg",
+        src: "Hymns Medley  Amazing Grace  Be Thou My Vision  Come Thou Fount  Anthem Lights.mp3"
+    },
+    {
+        title: "It Is Well With My Soul  Anthem Lights",
+        singer: "Anthem Lights",
+        cover: "it is well with my soul.jpg",
+        src: "It Is Well With My Soul  Anthem Lights.mp3"
+    },
+    {
+        title: "K-391 & Alan Walker - Ignite",
+        singer: "K-391 & Alan Walker",
+        cover: "ignite.jpg",
+        src: "K-391 & Alan Walker - Ignite (feat. Julie Bergan & Seungri).mp3"
+    },
+    {
+        title: "Katy Perry - Unconditionally",
+        singer: "Katy Perry",
+        cover: "unconditionally.jpg",
+        src: "Katy Perry - Unconditionally (Official).mp3"
+    },
+    {
+        title: "Lewis Capaldi - Someone You Loved",
+        singer: "Lewis Capaldi",
+        cover: "someone you loved.jpg",
+        src: "Lewis Capaldi - Someone You Loved (Lyrics).mp3"
+    },
+    {
+        title: "Major Lazer - Cold Water (feat. Justin Bieber & MØ)",
+        singer: "Major Lazer",
+        cover: "cold water.jpg",
+        src: "Major Lazer - Cold Water (feat. Justin Bieber & MØ) (Official Dance Video).mp3"
+    },
+    {
+        title: "Mirrors - Justin Timberlake (Nirit Milis acoustic cover)",
+        singer: "Nirit Milis",
+        cover: "mirrors.jpg",
+        src: "Mirrors - Justin Timberlake (Nirit Milis acoustic cover).mp3"
+    },
+    {
+        title: "Nightcore  Havana  Shape of You   Despacito & MORE!",
+        singer: "Nightcore",
+        cover: "havana.jpg",
+        src: "Nightcore  Havana  Shape of You   Despacito & MORE! (Switching VocalsMashup) - [Lyrics].mp3"
+    },
+    {
+        title: "Nightcore - Demons (Switching Vocals)",
+        singer: "Nightcore",
+        cover: "demons.jpg",
+        src: "Nightcore - Demons (Switching Vocals) - (Lyrics).mp3"
+    },
+    {
+        title: "One Direction - Night Changes",
+        singer: "One Direction",
+        cover: "night change.jpg",
+        src: "One Direction - Night Changes.mp3"
+    },
+    {
+        title: "Phil Collins - You'll Be in My Heart Tarzan",
+        singer: "Phil Collins",
+        cover: "tarzan.jpg",
+        src: "Phil Collins - You'll Be in My Heart Tarzan(ターザン).mp3"
+    },
+    {
+        title: "Pink Sweat$ - At My Worst",
+        singer: "Pink Sweats",
+        cover: "at my worst.jpg",
+        src: "Pink Sweat$ - At My Worst (Lyrics).mp3"
+    },
+    {
+        title: "Pitbull - Timber",
+        singer: "Pitbull",
+        cover: "timber.jpg",
+        src: "Pitbull - Timber (Lyrics) ft. Ke$ha.mp3"
+    },
+    {
+        title: "Sia - (Lyrics) Cheap Thrills",
+        singer: "Sia",
+        cover: "cheap thrill.jpg",
+        src: "Sia - (Lyrics) Cheap Thrills (Single Version).mp3"
+    },
+    {
+        title: "Song of the Sea  Lullaby",
+        singer: "Lullaby",
+        cover: "song of the sea.jpg",
+        src: "Song of the Sea  Lullaby [with lyrics].mp3"
+    },
+    {
+        title: "Taylor Swift - Love Story",
+        singer: "Taylor Swift",
+        cover: "love story.jpg",
+        src: "Taylor Swift - Love Story (Lyrics).mp3"
+    },
+    {
+        title: "Thaa Thaa  Thabungton  Official Music Video Release",
+        singer: "Manipuri",
+        cover: "tha tha thabungton.jpg",
+        src: "Thaa Thaa  Thabungton  Official Music Video Release.mp3"
+    },
+    {
+        title: "The Chainsmokers & Coldplay - Something Just Like This",
+        singer: "Chainsmokers & Coldplay",
+        cover: "something just like this.jpg",
+        src: "The Chainsmokers & Coldplay - Something Just Like This (Lyric).mp3"
+    },
+    {
+        title: "The Little Mermaid Medley  Anthem Lights Mashup",
+        singer: "Anthem Lights",
+        cover: "part of world.jpg",
+        src: "The Little Mermaid Medley  Anthem Lights Mashup.mp3"
+    },
+    {
+        title: "TheFatRat - Monody (feat. Laura Brehm) (Orchestral Remix by sJLs)",
+        singer: "TheFatRat",
+        cover: "monody.jpg",
+        src: "TheFatRat - Monody (feat. Laura Brehm) (Orchestral Remix by sJLs) (Lyrics Video).mp3"
+    },
+    {
+        title: "Westlife -  Beautiful in white",
+        singer: "Westlife",
+        cover: "beatiful in whit.jpg",
+        src: "Westlife -  Beautiful in white (Lyrics).mp3"
+    },
+    {
+        title: "Whitney Houston - I Will Always Love You",
+        singer: "Whitney Houston",
+        cover: "i like u so much.jpg",
+        src: "Whitney Houston - I Will Always Love You (Lyrics).mp3"
+    },
+    {
+        title: "ZAYN - iTs YoU",
+        singer: "Zayn",
+        cover: "its you.jpg",
+        src: "ZAYN - iTs YoU (Lyrics).mp3"
+    },
 ];
 
 const musicList = document.getElementById("music-list");
