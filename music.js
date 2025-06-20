@@ -440,7 +440,7 @@ const musicArrays = [
     {
         title: "Whitney Houston - I Will Always Love You",
         singer: "Whitney Houston",
-        cover: "i like u so much.jpg",
+        cover: "i will always love you.jpg",
         src: "Whitney Houston - I Will Always Love You (Lyrics).mp3"
     },
     {
