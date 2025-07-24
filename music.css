@@ -390,10 +390,10 @@ footer {
     }
     .search input {
         font-size: 14px;
-        padding: 7px 4px;
+        padding: 8px 5px;
     }
     .search button {
-        padding: 6px;
+        padding: 7px;
     }
     #music-list {
         display: flex;
