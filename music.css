@@ -11,9 +11,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 10px;
     position: sticky;
     top: 0;
     width: 100%;
+    max-width: 100%;
     align-self: stretch;
     padding: 5px 20px;
     z-index: 1000;
@@ -140,6 +142,7 @@ body {
     gap: 5px;
     align-items: center;
     box-sizing: border-box;
+    width: 100%;
 }
 .audio-list h1 {
     color: #7f5fca;
@@ -156,6 +159,7 @@ body {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
 .song-container {
     display: flex;
@@ -183,10 +187,10 @@ body {
 }
 audio {
     height: 40px;
-    width: auto;
     border-radius: 30px;
     box-shadow: 0px 1px 1px black;
     flex-shrink: 1;
+    width: 100%;
 } 
 .song-container div {
     display: flex;
@@ -375,6 +379,7 @@ footer {
     .audio-list .nav {
         padding: 4px 8px;
         background-color: #0a021a;
+        padding: 10px 5px;
     }
     .nav .logo h2 {
         font-size: 24px;
@@ -383,11 +388,12 @@ footer {
         height: 30px;
         width: 30px;
     }
-    .nav #icon {
-        display: block;
+    .search input {
+        font-size: 14px;
+        padding: 5px 2px;
     }
-    .search {
-        display: none;
+    .search button {
+        padding: 4px;
     }
     #music-list {
         display: flex;
@@ -458,7 +464,6 @@ footer {
     }
     .audio {
         height: 40px;
-        box-sizing: border-box;
         width: 100%;
     }
     .song-container div p {
@@ -487,11 +492,8 @@ footer {
         width: 14rem;
         height: 14rem;
     }
-    .audio {
-        width: 270px;
-    }
     .song-container div .title {
-        width: 270px;
+        width: 280px;
     }
 }
 @media (max-width: 380px) {
@@ -509,17 +511,11 @@ footer {
     .quote .text {
         max-width: 300px;
     }
-    .audio {
-        width: 250px;
-    }
     .song-container div .title {
         width: 250px;
     }
 }
 @media (max-width: 360px) {
-    .audio {
-        width: 230px;
-    }
     .song-container div .title {
         width: 230px;
         font-size: 12px;
@@ -540,17 +536,11 @@ footer {
     .quote .text {
         max-width: 260px;
     }
-    .audio {
-        width: 200px;
-    }
     .song-container div .title {
         width: 200px;
     }
 }
 @media (max-width: 310px) {
-    .audio {
-        width: 190px;
-    }
     .song-container div .title {
         width: 190px;
     }

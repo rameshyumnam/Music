@@ -452,6 +452,7 @@ const musicArrays = [
 ];
 
 const musicList = document.getElementById("music-list");
+const searchBar = document.getElementById("searchbar");
 
 musicArrays.forEach(music => {
     const song = document.createElement("div");
@@ -466,6 +467,23 @@ musicArrays.forEach(music => {
     `;
     musicList.appendChild(song);
 });
+
+searchBar.addEventListener("input", () => {
+    const query = searchBar.value.toLowerCase();
+    const allSongs = document.querySelectorAll(".song-container");
+
+    musicArrays.forEach((music, index) => {
+        const songElement = allSongs[index];
+        const titleMatch = music.title.toLowerCase().includes(query);
+        const singerMatch = music.singer.toLowerCase().includes(query);
+
+        if (titleMatch || singerMatch) {
+            songElement.style.display = "flex";
+        } else {
+            songElement.style.display = "none";
+        }
+    })
+})
 
 setTimeout(() => {
     const allAudio = document.querySelectorAll("audio");
